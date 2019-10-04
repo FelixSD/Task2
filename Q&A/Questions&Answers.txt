@@ -1,0 +1,38 @@
+8 Bit = 1 Byte
+-------------------------------------------------------
+int =  32 Bit      -> 4 Byte
+short = 16 Bit     -> 2 Byte
+byte = 8 Bit       -> 1 Byte
+long = 64 Bit      -> 8 Byte
+double = 64 Bit    -> 8 Byte
+float = 32 Bit     -> 4 Byte
+char = 16 Bit      -> 2 Byte
+decimal = 128 Bit  -> 16 Byte
+
+"Hello, World" = 12 Zeichen(char) * 16 Bit = 192 Bit = 24 Byte
+
+Größter int Wert:       2 147 483 647
+Größter short Wert:     32 767
+
+Kleinster int Wert:     -2 147 483 648
+Kleinster short Wert:   -32 768
+
+Größter float Wert:     3.4E+38
+Größter double Wert:    1.7E+308
+
+Kleinster float Wert:   -3.4E+38
+Kleinster double Wert:  -1.7E+308
+
+Gleit- oder Fließkommazahl: Zahl die in Exponentialschreibweise dargestellt wird.
+Festkommazahl: Eine Zahl die mit einer bestimmten Anzahl an Ziffern dargestellt wird. Dabei ist die Position des Kommas fest vorgeschrieben.
+
+Der Datentyp decimal ist dank seiner hohen Genauigkeit besonders für techniche Geräte geeignet, die mit sehr präzisen Werten arbeiten.
+
+Das Schlüsselwort "else" ist ein reserviertes Wort und somit als Bezeichner unzulässig.
+
+Um von var variable = 0 (int) zu einer double Variable zu wechseln, müsste diese var variable = 0.0 (double) heißen
+
+Foreach Schleifen haben gegenüber normalen For Schleifen gewisse Vor- und Nachteile. 
+    - Geringerer Schreibaufwand der foreach Schleife
+    - Keine Angabe über die länge (wie lange die Schleife durch den Array iterieren soll)
+    - Assoziative Arrays können nur mit foreach Schleifen durchlaufen werden, da ihre Indizes nicht numerisch sind
